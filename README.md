@@ -126,8 +126,33 @@ This assignnment is more involved than the first two, but uses the same basic mi
 
 ## Screensavers
 
-_TODO: Add your screensaver descriptions!!!_
-
+Screensaver 1: 
+   "Rotating lines" that was described in the first screensaver description. 
+   (function screensaver1() {
+    basic.showString("|/-\|")
+    })
+Screensaver 2: 
+    Creates random sprite on the screen  
+   (function screensaver2() {
+    item.setX(Math.randomRange(0, 4));
+    item.setY(Math.randomRange(0, 4));
+    })
+Screensaver 3: 
+   Shows a heart 
+   (function screensaver3() {
+    basic.showIcon(IconNames.Heart);
+    })
+Screensaver 4: 
+   Shows a string of "*.*" 
+   (function screensaver5() {
+    basic.showString("*.*.*.*.*")
+    })
+Screensaver 5: 
+   Shows a string of "-_-"
+   (function screensaver5() {
+    basic.showString("-_-_-_-_-")
+    })
+   
 ## Demo video
 
 _TODO: Add your video URL here!!!_
